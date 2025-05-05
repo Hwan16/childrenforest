@@ -1,6 +1,6 @@
-import Image from "next/image";
-// import { supabase } from "@/lib/supabase/client"; // 경로 별칭 주석 처리
-import { supabase } from "../lib/supabase/client"; // 상대 경로로 변경
+// import Image from "next/image"; // 사용하지 않으므로 주석 처리 또는 삭제
+import { supabase } from "@/lib/supabase/client"; // 경로 별칭 사용
+// import { supabase } from "../lib/supabase/client"; // 상대 경로 주석 처리
 
 export default function Home() {
   // 콘솔에 supabase 객체 출력 (연결 테스트용)
